@@ -45,6 +45,7 @@
 		BC7636FB195BBCAA0070222B /* SimpleRobot.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7636F9195BBCAA0070222B /* SimpleRobot.m */; };
 		BCA5F346195BD4DA00F1A2DF /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCA5F345195BD4DA00F1A2DF /* GLKit.framework */; };
 		D59591AD196325EA0055961B /* DecadeSix.m in Sources */ = {isa = PBXBuildFile; fileRef = D59591AC196325EA0055961B /* DecadeSix.m */; };
+		D599064A1965C515000D14BD /* DecadeSixRedux.m in Sources */ = {isa = PBXBuildFile; fileRef = D59906491965C515000D14BD /* DecadeSixRedux.m */; };
 		D5EB18231962630E00A9563F /* Jaeger.m in Sources */ = {isa = PBXBuildFile; fileRef = D5EB18221962630E00A9563F /* Jaeger.m */; };
 /* End PBXBuildFile section */
 
@@ -121,6 +122,8 @@
 		BCA5F345195BD4DA00F1A2DF /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		D59591AB196325EA0055961B /* DecadeSix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecadeSix.h; sourceTree = "<group>"; };
 		D59591AC196325EA0055961B /* DecadeSix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecadeSix.m; sourceTree = "<group>"; };
+		D59906481965C515000D14BD /* DecadeSixRedux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecadeSixRedux.h; sourceTree = "<group>"; };
+		D59906491965C515000D14BD /* DecadeSixRedux.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecadeSixRedux.m; sourceTree = "<group>"; };
 		D5EB18211962630E00A9563F /* Jaeger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Jaeger.h; sourceTree = "<group>"; };
 		D5EB18221962630E00A9563F /* Jaeger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Jaeger.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -160,6 +163,8 @@
 				D5EB18221962630E00A9563F /* Jaeger.m */,
 				D59591AB196325EA0055961B /* DecadeSix.h */,
 				D59591AC196325EA0055961B /* DecadeSix.m */,
+				D59906481965C515000D14BD /* DecadeSixRedux.h */,
+				D59906491965C515000D14BD /* DecadeSixRedux.m */,
 			);
 			name = Robots;
 			sourceTree = "<group>";
@@ -395,6 +400,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6236628E19612C5500ECB220 /* AdvancedRobot.m in Sources */,
+				D599064A1965C515000D14BD /* DecadeSixRedux.m in Sources */,
 				D5EB18231962630E00A9563F /* Jaeger.m in Sources */,
 				629FCFF4193E71C300896E8C /* GameOverScene.m in Sources */,
 				6244629A1937DDD300895F2D /* Robot.m in Sources */,

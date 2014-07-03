@@ -60,6 +60,7 @@ int times = 0;
         }
         if (_currentRobotState == RobotStateFiring)
         {
+            //NSLog(@"Pew-Pew");
             if ((self.currentTimestamp - _lastKnownPositionTimestamp) > 1.f) {
                 _currentRobotState = RobotStateSearching;
             } else {
@@ -79,6 +80,8 @@ int times = 0;
 - (void)bulletHitEnemy:(Bullet *)bullet {
     // not sure if i want to make this change
     //slows my searching state
+    //++times;
+    //NSLog(@"%i", times);
     //[self shoot];
     //_currentRobotState = RobotStateFiring;
 }
