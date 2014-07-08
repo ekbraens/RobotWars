@@ -31,7 +31,7 @@ int times = 0;
 
 - (void)run {
     while (true) {
-        if (_currentFloat != -45)
+        if (_currentFloat != -45 && _currentFloat != -44)
         {
             [self turnRobotRight:75];
             [self moveBack:60];
